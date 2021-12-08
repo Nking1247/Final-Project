@@ -1,0 +1,20 @@
+/*
+==========================================
+HEADER STYLING
+==========================================
+*/
+
+/* NAVBAR STYLING */
+.navbar-light{
+    background-color: aquamarine !important;
+}
+
+/* BUTTON SYTLING*/
+
+
+.btn-primary, .btn-primary:active, .btn-primary:visited{
+    background-color: aquamarine !important;
+}
+.btn-primary:hover{
+    background-color: maroon !important;
+}
