@@ -1,20 +1,109 @@
 /*
 ==========================================
+Color Pallete
+==========================================
+
+Black: #0B0C10
+Light Black: #1F2833
+White: #C5C6C7
+Light Blue: #66FCF1
+Dark Blue: #45A29E
+
+
+/*
+==========================================
+GENERAL
+==========================================
+*/
+
+body{
+    background-color: #C5C6C7;
+}
+
+.black{
+    color: #0B0C10 !important; 
+}
+.lightblack{
+    color: #1F2833 !important;
+}
+.white{
+    color: #C5C6C7 !important;
+}
+.lightblue{
+    color: #66FCF1 !important;
+}
+.darkblue{
+    color: #45A29E !important;
+}
+/*
+==========================================
 HEADER STYLING
 ==========================================
 */
 
+
+
 /* NAVBAR STYLING */
 .navbar-light{
-    background-color: aquamarine !important;
+    background-color: #1F2833 !important;
+    
+}
+.navbar-brand,
+.nav-link{
+    color: #45A29E !important;
+}
+/* HERO SYTLING*/
+
+.bg-dark{
+    background-color: #0B0C10 !important;
+    color: #C5C6C7 !important;
+}
+h1{
+    color: #66FCF1 !important;
 }
 
 /* BUTTON SYTLING*/
 
 
 .btn-primary, .btn-primary:active, .btn-primary:visited{
-    background-color: aquamarine !important;
+    border-color: #66FCF1 !important;
+    background-color: #0B0C10 !important;
+    color: #C5C6C7;
 }
 .btn-primary:hover{
-    background-color: maroon !important;
+    background-color: #45A29E !important;
+}
+
+
+/*
+==========================================
+GRID ONE LEFT
+==========================================
+*/
+
+#col-left-one{
+    background-color: #45A29E;
+    color: #1F2833 !important;
+   
+}
+
+.display-5{
+    color: #1F2833 !important;
+}
+
+
+mark{
+    background-color: #66FCF1 !important;
+}
+
+
+/*
+==========================================
+GRID ONE RIGHT
+==========================================
+*/
+
+#col-right-one{
+    background-color: #1F2833;
+    color: #45A29E !important;
 }
