@@ -84,9 +84,9 @@ GRID ONE LEFT
 
 #col-left-one{
     background-color: #45A29E;
-    color: #1F2833 !important;
+
    
-}
+} 
 
 .display-5{
     color: #1F2833 !important;
@@ -105,6 +105,29 @@ GRID ONE RIGHT
 */
 
 #col-right-one{
-    background-color: #1F2833;
-    color: #45A29E !important;
+    background-color: #45A29E;
 }
+
+
+/*
+==========================================
+GRID TWO
+==========================================
+*/
+
+#col-left-two{
+    background-color: #45A29E;
+    
+}
+
+#col-right-two{
+    background-color: #45A29E;
+}
+
+#img-one{
+    
+    
+}
+
+
+
