@@ -36,6 +36,8 @@ body{
     color: #45A29E !important;
 }
 
+
+
 /*
 ==========================================
 HEADER STYLING
@@ -55,14 +57,34 @@ HEADER STYLING
 }
 /* HERO SYTLING*/
 
-.bg-dark{
-    background-color: #0B0C10 !important;
+.hero-bg{
+    background: url(img/best-story-games.jpeg);
     color: #C5C6C7 !important;
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-size:cover;
+    position:relative;
+    
+
+
+
+}
+
+
+.long{
+    height: 100px;
 }
 h1{
     color: #66FCF1 !important;
 }
-
+.wedge{
+    height:100px;
+    width:100%;
+}
+.wedge-img{
+    width:100%;
+    height:100px;
+}
 /* BUTTON SYTLING*/
 
 
@@ -81,6 +103,9 @@ h1{
 GRID ONE LEFT
 ==========================================
 */
+.wrapper{
+    background-color:#45A29E;
+}
 
 #col-left-one{
     background-color: #45A29E;
@@ -108,26 +133,38 @@ GRID ONE RIGHT
     background-color: #45A29E;
 }
 
+.display-4{
+    font-size: 45px;
+}
 
 /*
 ==========================================
 GRID TWO
 ==========================================
 */
-
-#col-left-two{
-    background-color: #45A29E;
-    
-}
-
-#col-right-two{
-    background-color: #45A29E;
-}
-
-#img-one{
-    
-    
+.wrapper-two{
+    background-color: #C5C6C7;
 }
 
 
+
+.btn-secondary, .btn-secondary:active, .btn-secondary:visited{
+    border-color: #1F2833 !important;
+    background-color: #66FCF1 !important;
+    color: #1F2833;
+}
+.btn-secondary:hover{
+    background-color: #45A29E !important;
+}
+
+
+
+
+
+
+/*
+==========================================
+CUSTOM
+==========================================
+*/
 
