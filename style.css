@@ -172,6 +172,20 @@ GRID THREE
 
 /*
 ==========================================
+GRID FOUR
+==========================================
+*/
+#definition{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    font-style: italic;
+}
+
+
+
+/*
+==========================================
 CUSTOM
 ==========================================
 */
